@@ -1,0 +1,31 @@
+body{
+  height:99vh;
+
+  background-color:  rgb(53,54,58,1);
+}
+header{
+  height: 10vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: row;
+}
+.headerText{
+  margin: 10px;
+  color: white;
+  font-family: futura, Arial, Helvetica, sans-serif;
+  font-size: 10pt;
+}
+.img1 {
+  margin: 10px;
+  height: 23px;
+  filter: invert(100%)
+}
+.img2 {
+  margin: 10px;
+  height: 16px;
+  filter: invert(100%);
+}
+.img3 {
+  height: 40px;
+}
